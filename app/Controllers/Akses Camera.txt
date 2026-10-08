@@ -1,0 +1,25 @@
+Karena saya tidak memiliki hak akses Administrator di komputer Anda (Akses Ditolak saat mencoba restart Apache dan install sertifikat), saya telah menyiapkan konfigurasi SSL-nya namun Anda perlu melakukan beberapa langkah secara manual.
+
+Masalah "Browser Anda tidak mendukung akses kamera" saat diakses dari HP atau komputer lain terjadi karena browser modern (seperti Chrome/Safari) memblokir akses kamera jika diakses menggunakan HTTP biasa (harus HTTPS), kecuali jika diakses dari localhost.
+
+Untuk mengatasinya, Anda bisa memilih salah satu dari 2 cara di bawah ini:
+
+Cara 1: Menggunakan HTTPS (Direkomendasikan)
+Saya sudah membuatkan sertifikat SSL khusus untuk IP Anda (192.168.44.88) dan memasukkannya ke konfigurasi XAMPP. Silakan ikuti langkah berikut:
+
+Buka XAMPP Control Panel di komputer Anda.
+Pada baris Apache, klik tombol Stop, lalu tunggu sebentar, dan klik tombol Start kembali.
+Buka aplikasi di browser (baik di komputer maupun HP) menggunakan HTTPS: 👉 https://192.168.44.88/itsupport
+Browser akan menampilkan peringatan privasi (Your connection is not private) karena ini sertifikat buatan sendiri.
+Di Chrome: Klik tombol Advanced (Lanjutan), lalu klik Proceed to 192.168.44.88 (unsafe).
+Setelah masuk, coba kembali menu UPS Checklist. Browser sekarang akan memunculkan popup meminta izin akses kamera.
+Cara 2: Bypass Keamanan Chrome (Tanpa HTTPS)
+Jika Anda tidak ingin menggunakan HTTPS dan hanya mengakses lewat Chrome, Anda bisa memaksa Chrome untuk mengizinkan akses kamera di HTTP biasa. Langkah ini harus dilakukan di perangkat (HP/Komputer) yang digunakan untuk membuka web:
+
+Buka browser Chrome.
+Ketik alamat ini di URL bar dan tekan Enter: chrome://flags/#unsafely-treat-insecure-origin-as-secure
+Pada bagian "Insecure origins treated as secure", masukkan alamat IP web Anda: http://192.168.44.88
+Ubah tombol di sebelahnya dari Disabled menjadi Enabled.
+Klik tombol Relaunch (Restart) di pojok kanan bawah.
+Buka kembali web http://192.168.44.88/itsupport, sekarang kamera akan bisa diakses.
+Silakan dicoba Cara 1 terlebih dahulu (jangan lupa restart Apache di XAMPP). Kabari saya jika kamera sudah berhasil terbuka!

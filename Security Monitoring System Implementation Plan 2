@@ -1,0 +1,58 @@
+# Security Monitoring System Implementation Plan
+
+Sistem ini akan menggabungkan dua fitur utama:
+1. **CMS Receiver (Socket Server):** Untuk menerima notifikasi alarm secara *real-time* dari perangkat.
+2. **Remote Control (Web Scraping/API):** Untuk mengontrol perangkat (Arm/Disarm) dan membaca status.
+
+## User Review Required
+
+> [!WARNING]
+> Panel alarm pabrikan China (seperti Chuango, Focus, Meian) memiliki ratusan versi *firmware* dengan struktur URL (API) yang berbeda-beda. Untuk fitur **Remote Control**, saya akan membuatkan kerangka dasar pengirim *HTTP Request*. Kita mungkin perlu menyesuaikan *URL Endpoint* (misal: `/cgi-bin/arm.cgi` atau `/form/login`) setelah uji coba pertama nanti.
+
+> [!IMPORTANT]
+> Fitur **CMS Receiver** membutuhkan sebuah *service* yang menyala 24/7 di latar belakang (Background Process). Saya akan membuatkan *script* berbasis PHP CLI. Anda perlu menjalankannya via Command Prompt / Terminal di server Windows Anda agar aplikasi bisa terus "mendengarkan" sinyal dari Alarm Panel.
+
+## Proposed Changes
+
+---
+
+### Database
+Akan ditambahkan dua tabel baru di database `db_cctv`:
+#### [NEW] `master_alarm_panel`
+- Menyimpan data perangkat: Nama, IP Address, HTTP Port, Username, Password.
+
+#### [NEW] `alarm_events`
+- Menyimpan riwayat alarm: Tanggal/Waktu, Data Mentah (*Raw Data*), Tipe Kejadian, dan Pesan (Pintu terbuka, Sensor gerak, dll).
+
+---
+
+### Backend (Socket Server)
+#### [NEW] `app/Commands/AlarmServer.php`
+- Membuat fitur CLI CodeIgniter khusus untuk menjalankan Socket Server (TCP Server) di port tertentu (misal: port 5000).
+- Skrip ini akan mendengarkan protokol Contact ID / SIA DC-09 yang dikirim panel, mem-parsing datanya, lalu menyimpannya ke database `alarm_events`.
+
+---
+
+### Web Interface & Controllers
+#### [NEW] `app/Controllers/SecurityController.php`
+- Menangani halaman *dashboard* Security Monitoring.
+- Menangani *endpoint* AJAX untuk mengambil data `alarm_events` terbaru secara *real-time*.
+- Menangani eksekusi *Remote Control* (Arm / Disarm) via cURL ke IP Alarm.
+
+#### [NEW] `app/Views/security/index.php`
+- Halaman UI bergaya *dashboard* moderen.
+- Menampilkan daftar panel alarm yang terdaftar.
+- Tombol aksi: **Arm Away**, **Arm Home**, **Disarm**, **Clear Alarm**.
+- Tabel/Log interaktif yang ter-*update* otomatis ketika ada event baru masuk.
+
+#### [MODIFY] `app/Views/layout/main.php`
+- Menambahkan menu **Security Monitoring** dengan ikon 🚨 di *sidebar*.
+
+#### [MODIFY] `app/Config/Routes.php`
+- Menambahkan *routing* untuk `security/*`.
+
+## Verification Plan
+1. **Automated / Background:** Menjalankan perintah `php spark alarm:server 5000` di CMD server untuk memastikan server berjalan tanpa error.
+2. **Manual Configuration:** Mengubah setingan "CMS Setting" di web panel alarm Anda untuk menunjuk ke IP Server IT Support (port 5000).
+3. **Manual Trigger:** Men-trigger alarm (misalnya membuka pintu atau menekan sensor) dan memastikan datanya muncul seketika di Web IT Support.
+4. **Remote Testing:** Mencoba menekan tombol "Arm" dari aplikasi IT Support dan memantau reaksi dari Alarm Panel.

@@ -1,0 +1,1202 @@
+[
+    {
+        "timestamp": "2026-09-25 09:01:24",
+        "user": "admin",
+        "action": "IMPORT",
+        "details": "Melakukan Import Excel Schedule Bell."
+    },
+    {
+        "timestamp": "2026-09-25 06:05:15",
+        "user": "admin",
+        "action": "IMPORT",
+        "details": "Melakukan Import Excel Schedule Bell."
+    },
+    {
+        "timestamp": "2026-09-22 00:02:57",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Istirahat Siang \/ Sholat"
+    },
+    {
+        "timestamp": "2026-09-21 08:44:50",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Selesai Istirahat Siang"
+    },
+    {
+        "timestamp": "2026-09-21 08:43:44",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: HRD-Kebijakan Larangan Membawa Makanan di Area Ker"
+    },
+    {
+        "timestamp": "2026-09-21 08:43:01",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Selesai Istirahat Siang"
+    },
+    {
+        "timestamp": "2026-09-21 08:37:04",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Bel Pulang Kerja Shift 1"
+    },
+    {
+        "timestamp": "2026-09-21 08:32:15",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Istirahat Siang \/ Sholat"
+    },
+    {
+        "timestamp": "2026-09-21 08:31:16",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Istirahat Siang \/ Sholat"
+    },
+    {
+        "timestamp": "2026-09-21 06:09:50",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Jadwal Bel"
+    },
+    {
+        "timestamp": "2026-09-21 04:41:42",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Bel Pulang Kerja Shift 1"
+    },
+    {
+        "timestamp": "2026-09-21 04:40:46",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Bel Pulang Kerja Shift 1"
+    },
+    {
+        "timestamp": "2026-09-21 04:39:17",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Selesai Istirahat Siang"
+    },
+    {
+        "timestamp": "2026-09-21 04:38:05",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Pengumuman Penting Karyawan"
+    },
+    {
+        "timestamp": "2026-09-21 04:37:03",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: HRD-Kebijakan Larangan Membawa Makanan di Area Ker"
+    },
+    {
+        "timestamp": "2026-09-21 00:02:34",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Bel Pulang Kerja Shift 1"
+    },
+    {
+        "timestamp": "2026-09-20 23:49:04",
+        "user": "admin",
+        "action": "UPDATE",
+        "details": "Memperbarui jadwal ID #10 (Bel Pulang Kerja Shift 1 (Copy))"
+    },
+    {
+        "timestamp": "2026-09-20 23:48:21",
+        "user": "admin",
+        "action": "DUPLICATE",
+        "details": "Menduplikasi jadwal ID #9 menjadi ID #10"
+    },
+    {
+        "timestamp": "2026-09-20 23:47:57",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Bel Pulang Kerja Shift 1"
+    },
+    {
+        "timestamp": "2026-09-18 06:22:37",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: Selesai Istirahat Siang"
+    },
+    {
+        "timestamp": "2026-09-18 06:03:18",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 1 jadwal baru: undefined"
+    },
+    {
+        "timestamp": "2026-09-18 02:30:48",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 3 jadwal baru: Selesai Istirahat Siang"
+    },
+    {
+        "timestamp": "2026-09-18 02:29:38",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan 3 jadwal baru: HRD-Kebijakan Larangan Membawa Makanan di Area Ker"
+    },
+    {
+        "timestamp": "2026-09-18 02:22:30",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan jadwal baru: HRD-Kebijakan Larangan Membawa Makanan di Area Ker"
+    },
+    {
+        "timestamp": "2026-09-18 02:10:25",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan jadwal baru: HRD-Kebijakan Larangan Membawa Makanan di Area Ker"
+    },
+    {
+        "timestamp": "2026-09-18 01:38:50",
+        "user": "admin",
+        "action": "IMPORT",
+        "details": "Melakukan Import Excel Schedule Bell."
+    },
+    {
+        "timestamp": "2026-09-18 01:11:00",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan jadwal baru: HRD-Kebijakan Larangan Membawa Makanan di Area Ker"
+    },
+    {
+        "timestamp": "2026-09-18 01:03:55",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan jadwal baru: HRD-Kebijakan Larangan Membawa Makanan di Area Ker"
+    },
+    {
+        "timestamp": "2026-09-18 00:06:47",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'highlight' menjadi '1' pada ID #52"
+    },
+    {
+        "timestamp": "2026-09-17 23:54:12",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'highlight' menjadi '1' pada ID #53"
+    },
+    {
+        "timestamp": "2026-09-17 07:26:29",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '1' pada ID #77"
+    },
+    {
+        "timestamp": "2026-09-17 07:26:20",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'day_6' menjadi '0' pada ID #77"
+    },
+    {
+        "timestamp": "2026-09-17 07:26:13",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #77"
+    },
+    {
+        "timestamp": "2026-09-17 07:25:26",
+        "user": "admin",
+        "action": "CREATE",
+        "details": "Menambahkan jadwal baru: Testing"
+    },
+    {
+        "timestamp": "2026-09-17 07:20:39",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '1' pada ID #60"
+    },
+    {
+        "timestamp": "2026-09-17 07:20:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #60"
+    },
+    {
+        "timestamp": "2026-09-17 07:17:14",
+        "user": "admin",
+        "action": "PROFILE",
+        "details": "Mengalihkan profil shift aktif ke: 'Normal Day Settup'"
+    },
+    {
+        "timestamp": "2026-09-17 07:16:51",
+        "user": "admin",
+        "action": "PROFILE",
+        "details": "Menyimpan profil shift: 'Normal Day Settup'"
+    },
+    {
+        "timestamp": "2026-09-17 07:03:36",
+        "user": "admin",
+        "action": "IMPORT",
+        "details": "Melakukan Import Excel Schedule Bell."
+    },
+    {
+        "timestamp": "2026-09-17 06:40:27",
+        "user": "admin",
+        "action": "IMPORT",
+        "details": "Melakukan Import Excel Schedule Bell."
+    },
+    {
+        "timestamp": "2026-09-17 06:06:31",
+        "user": "admin",
+        "action": "AUDIO_UPLOAD",
+        "details": "Mengunggah file audio baru: Bel_Stasiun_Kereta_Api_Indonesia_128k.mp3"
+    },
+    {
+        "timestamp": "2026-09-17 04:39:30",
+        "user": "admin",
+        "action": "UPDATE",
+        "details": "Memperbarui jadwal ID #1 (BELL-InHouse - 00:01 (ISTIRAHAT))"
+    },
+    {
+        "timestamp": "2026-09-17 04:39:04",
+        "user": "admin",
+        "action": "IMPORT",
+        "details": "Melakukan Import Excel Schedule Bell."
+    },
+    {
+        "timestamp": "2026-09-17 04:37:45",
+        "user": "admin",
+        "action": "PRESET",
+        "details": "Menerapkan preset 'clear_ring'"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #18"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #21"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #20"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #19"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #18"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:34",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #17"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:33",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #16"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:33",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #15"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:32",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #14"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:32",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #13"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:32",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #12"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:31",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #11"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:30",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #10"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:30",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #13"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:29",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #10"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:28",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #11"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:28",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #12"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:28",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #14"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:27",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #15"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:27",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #16"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:26",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #17"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:26",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #19"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:25",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #20"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:25",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #21"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:25",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #22"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:22",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #24"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:21",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #23"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:20",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #25"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:20",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #27"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:19",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #26"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:19",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #28"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:18",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #29"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:18",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #30"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:17",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #31"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:17",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #32"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:16",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #33"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:16",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #34"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:15",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #35"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:15",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #36"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:14",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #35"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:13",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #30"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:13",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #29"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:12",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '1' pada ID #29"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:11",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #27"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:10",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #25"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:10",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #23"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:09",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #22"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:09",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #24"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:09",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #26"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:07",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #28"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:07",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #29"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:06",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #31"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:06",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #32"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:06",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #33"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:05",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #34"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:05",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #36"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:04",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #37"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:03",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #37"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:00",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #38"
+    },
+    {
+        "timestamp": "2026-09-17 04:37:00",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #39"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:59",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #40"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:58",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #41"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:58",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #42"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:57",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #43"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:57",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #44"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:56",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #45"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:56",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #46"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:56",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #47"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:55",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #48"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:55",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #42"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:53",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #38"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:53",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #39"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:53",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #40"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:53",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #41"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:53",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '1' pada ID #42"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:51",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #42"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:50",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #43"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:50",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #44"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:49",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #45"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:49",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #46"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:49",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #47"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:48",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #48"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:48",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #49"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:47",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #50"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:46",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #49"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:45",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #50"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:45",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #51"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:44",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #52"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:43",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #51"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:42",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #52"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:42",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #53"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:41",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #54"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:40",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #53"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:39",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #54"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:39",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #55"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:38",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #55"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:38",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #56"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:38",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #56"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #57"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:37",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #57"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:35",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #59"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:34",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #58"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:33",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #58"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:33",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #60"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:32",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #60"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:32",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #61"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:32",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #62"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:30",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #64"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:30",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #63"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:29",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #63"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:29",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #64"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:29",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #65"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:28",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #65"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:27",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #66"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:27",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #66"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:26",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #67"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:26",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #68"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:26",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #69"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:25",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #70"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:25",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #71"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:24",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #72"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:24",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #75"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:23",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #68"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:22",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #69"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:22",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #70"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:21",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #71"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:21",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #73"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:20",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #74"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:19",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #59"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:19",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #61"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:18",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #62"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:17",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #67"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:16",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '1' pada ID #70"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:16",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #70"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:16",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '1' pada ID #71"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:16",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #71"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:15",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #72"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:15",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #73"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:14",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #74"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:14",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #75"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:14",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #76"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:13",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #76"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:13",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #77"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:12",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #77"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:12",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #79"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:11",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #79"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:07",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #9"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:07",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #9"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:06",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #8"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:06",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #7"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:05",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #6"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:05",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #5"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:04",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #3"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:03",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #4"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:01",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_out' menjadi '0' pada ID #1"
+    },
+    {
+        "timestamp": "2026-09-17 04:36:01",
+        "user": "admin",
+        "action": "INLINE_EDIT",
+        "details": "Mengubah field 'spk_in' menjadi '0' pada ID #1"
+    }
+]

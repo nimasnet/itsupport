@@ -1,0 +1,46 @@
+# Walkthrough - Implementasi Switch Network, Cekrool, & Hardisk Log Replacement
+
+Saya telah berhasil mengimplementasikan modul **Switch Network Management**, **Cekrool Management**, dan **Hardisk Log Replacement** secara penuh, mulai dari pembuatan tabel database, model, routing, controller, hingga tampilan view dengan modal CRUD, bulk delete, pencarian, pengurutan, dan impor/ekspor Excel yang responsif.
+
+## Perubahan yang Dilakukan
+
+### 1. Database Setup
+- **Tabel `switch_network`**: Untuk mengelola data Switch dengan kolom `id`, `lokasi`, `name_switch`, `ip_address`, `type_switch`, `notes`, dan timestamp.
+- **Tabel `cekrool`**: Untuk mengelola audit hak akses perangkat Cekrool dengan kolom `id`, `location`, `device_id`, `ip_address`, `type_device`, `notes`, dan timestamp.
+- **Tabel `hardisk_log_replacement`**: Untuk mengelola log pergantian hardisk NVR dengan kolom `id`, `device_name`, `slot_1` s.d. `slot_10` (START ~ END HDD RECORD I - X), `start_record`, `last_record`, `remark`, dan timestamp.
+
+### 2. Model Backend
+- **[SwitchNetworkModel.php](file:///c:/xampp/htdocs/itsupport/app/Models/SwitchNetworkModel.php)**: Mengelola operasi database tabel `switch_network`.
+- **[CekroolModel.php](file:///c:/xampp/htdocs/itsupport/app/Models/CekroolModel.php)**: Mengelola operasi database tabel `cekrool`.
+- **[HardiskLogModel.php](file:///c:/xampp/htdocs/itsupport/app/Models/HardiskLogModel.php)**: Mengelola operasi database tabel `hardisk_log_replacement`.
+
+### 3. Controller
+- **[IpManagementController.php](file:///c:/xampp/htdocs/itsupport/app/Controllers/IpManagementController.php)**: Mengelola visualisasi dan aksi CRUD untuk Switch Network dan Cekrool.
+- **[HardiskLogController.php](file:///c:/xampp/htdocs/itsupport/app/Controllers/HardiskLogController.php)**: 
+  - Mengelola halaman log pergantian Hardisk.
+  - CRUD & Bulk Delete: Penanganan aksi tambah, ubah, hapus tunggal, dan hapus terpilih.
+  - Auto-Dates Calculation & Formatting: Secara cerdas menghitung tanggal `Start Record` dan `Last Record` dari data slot yang terisi jika kolom tersebut dikosongkan. Sistem otomatis mengonversi format date picker `YYYY-MM-DD` menjadi `DD/MM/YYYY`.
+  - Dynamic JSON Slots: Slot data disimpan dalam satu kolom `slots_json` berbentuk string JSON array. Hal ini memungkinkan penambahan jumlah slot tidak terbatas secara dinamis tanpa merubah struktur tabel database sewaktu-waktu.
+  - Impor & Ekspor Excel Dinamis: Mendukung impor berkas Excel dengan jumlah kolom slot dinamis. Ekspor Excel secara otomatis menyesuaikan ukuran kolom tabel berdasarkan jumlah maksimum slot yang terdaftar di database.
+
+### 4. Routing
+- **[Routes.php](file:///c:/xampp/htdocs/itsupport/app/Config/Routes.php)**: 
+  - Mendaftarkan rute CRUD lengkap untuk `switch-network` dan `cekrool` di bawah grup routing `ip-management`.
+  - Mendaftarkan rute CRUD lengkap untuk `hardisk-log` di bawah grup routing `cctv`.
+
+### 5. Frontend Views
+- **[switch_network.php](file:///c:/xampp/htdocs/itsupport/app/Views/ip_management/switch_network.php)**, **[cekrool.php](file:///c:/xampp/htdocs/itsupport/app/Views/ip_management/cekrool.php)**, & **[hardisk_log.php](file:///c:/xampp/htdocs/itsupport/app/Views/cctv/hardisk_log.php)**:
+  - Menyusun tabel data responsif dengan layout ramping dan kompak (`padding: 5px/6px`, `font-size: 12px`, lebar kolom teratur).
+  - Khusus `hardisk_log.php`, tabel didesain dengan kolom berderet horizontal (`min-width: 1800px` dengan scroll bar) agar muat menampilkan seluruh slot rekaman I s.d. N dan detail record secara berdampingan. Kolom slot otomatis bertambah jika ada perangkat yang memiliki slot lebih dari 10.
+  - Menyediakan form modal popup dinamis untuk Tambah, Edit, dan Import Excel. Pada pengisian slot data di modal Tambah/Edit, isian didesain menggunakan **Dual Date Picker** (Start Date & End Date) berdampingan untuk memudahkan pemilihan tanggal, serta tombol **"➕ Tambah Slot"** untuk menambahkan slot input baru secara dinamis kapan saja.
+  - Mengimplementasikan JavaScript untuk:
+    - **Pencarian Real-time** (`filterTable()`).
+    - **Pengurutan Fleksibel** (`sortTable()`).
+    - **Aksi Massal** (Seleksi checkbox/Select All terintegrasi dengan tombol Hapus Terpilih).
+- **[main.php](file:///c:/xampp/htdocs/itsupport/app/Views/layout/main.php)**: Menambahkan tautan menu **Hardisk Log Replacement** pada bagian **📁 Pengelolaan CCTV** di sidebar menu utama.
+
+---
+
+## Verifikasi & Pengujian Sintaks
+- Semua berkas PHP yang dimodifikasi telah dlinting (`php -l`) dan bebas dari kesalahan sintaks.
+- Operasi database untuk seluruh model telah diverifikasi lolos pengujian integrasi CRUD lengkap via script uji otomatis.
